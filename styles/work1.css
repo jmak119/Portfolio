@@ -1,0 +1,11 @@
+.click-text {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.click-text:focus + .hidden {
+    display: block;
+}
