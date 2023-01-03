@@ -1,0 +1,19 @@
+.div1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 200px;
+  display: inline;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.words {
+  display: inline; 
+  width: 300px;
+}
