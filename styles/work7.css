@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  vertical-align: center;
+  background-color: rgb(204, 202, 202);
+ 
+}
+
+.headingrow, .tablerow {
+  display: table-row;
+  width: auto;
+  border-bottom: 1px solid rgb(180, 175, 175);
+}
+
+.headingcolumn, .column1, .column2, .column3 {
+  float: left;
+  display: table-column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headingrow, .column1 {
+  font-weight: bold;
+}
+
+.column1 {
+  width: 50px;
+}
+
+.column2 {
+  width: 100px;
+}
+
+.column3 {
+  width: 200px;
+}
