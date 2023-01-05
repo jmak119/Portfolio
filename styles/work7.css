@@ -19,25 +19,25 @@ body {
   background-color: gray;
 }
 
-.column1, .column2, .column3, .column4 {
+.column {
   float: left;
   display: table-column;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.headingrow, .column1 {
+.headingrow, .col-bold {
   font-weight: bold;
 }
 
-.column1 {
+.col20 {
   width: 20%;
 }
 
-.column2 {
+.col30 {
   width: 30%;
 }
 
-.column3, .column4 {
+.col50 {
   width: 50%;
 }
