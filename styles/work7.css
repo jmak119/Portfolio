@@ -4,20 +4,22 @@ body {
 
 .div-table {
   display: table;
-  width: 100%;
+  flex-direction: row;
+  table-layout: fixed;
   border-collapse: collapse;
   vertical-align: center;
-  background-color: rgb(204, 202, 202);
- 
+  width: 100%;
 }
 
 .headingrow, .tablerow {
-  display: table-row;
-  width: auto;
-  border-bottom: 1px solid rgb(180, 175, 175);
+  display: flex;
 }
 
-.headingcolumn, .column1, .column2, .column3 {
+.odd-row {
+  background-color: gray;
+}
+
+.column1, .column2, .column3, .column4 {
   float: left;
   display: table-column;
   padding-top: 10px;
@@ -29,13 +31,13 @@ body {
 }
 
 .column1 {
-  width: 50px;
+  width: 20%;
 }
 
 .column2 {
-  width: 100px;
+  width: 30%;
 }
 
-.column3 {
-  width: 200px;
+.column3, .column4 {
+  width: 50%;
 }
