@@ -2,19 +2,18 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   margin: 0; 
   width: 100%;
+  top: 0;
+  bottom: 0;
 }
 
 main {
-  
   align-items: center;
   text-align: center;
-  background-color: brown;
 }
 
 section {
   text-align: center;
   margin-bottom: 100px;
-  background-color: green;
 }
 
 h1 {
@@ -56,7 +55,6 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 450px;
   column-gap: 20px;
-  background-color: aqua;
 }
 
 .aesthetic-image {
@@ -80,7 +78,6 @@ h1 {
 
 .who-we-are-grid {
   grid-template-rows: 200px;
-  background-color: aqua;
 }
 
 .info {
@@ -104,7 +101,6 @@ h1 {
 
 .credo-grid {
   grid-template-rows: 588px;
-  background-color: aqua;
 }
 
 .plant-on-desk {
@@ -136,6 +132,7 @@ h1 {
   background-color: rgb(218, 212, 206);
   width: 80%;
   margin-bottom: 20px;
+  border: none;
 }
 
 .input-box {

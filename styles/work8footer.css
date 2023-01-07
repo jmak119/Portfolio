@@ -1,0 +1,59 @@
+.footer {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.left-section {
+  display: inline;
+  margin-left: 300px;
+  width: 200px;
+}
+
+.heading {
+  font-size: 15px;
+  text-align: left;
+}
+
+.info-footer {
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.social {
+  align-items: left;
+  margin-left: 0;
+}
+
+.icons {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.middle-section {
+  display: inline;
+  width: 200px;
+}
+
+.right-section {
+  display: inline;
+}
+
+.subscribe-form {
+  text-align: left;
+}
+
+.sub-label {
+  margin-bottom: 0;
+}
+
+.sub-but {
+  margin-top: 0;
+}
