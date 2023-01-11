@@ -6,24 +6,36 @@ body {
 }
 
 .center {
-  align-items: center;
-  text-align: ;
-  width: 1024px;
+  width: 1224px;
   margin: auto;
 }
 
-h3 {
+.div-items-center {
+  text-align: center;
+}
+
+.section-1 {
+  height: 1024px;
+}
+
+.spacing {
+  margin-bottom: 35px;
+}
+
+h1 {
   font-size: 48px;
+  font-weight: lighter;
 }
 
 .buttons {
   color: white;
-  background-color: rgb(179, 149, 147);
+  background-color: #CCADAD;
   font-size: 14px;
+  font-weight: 600;
   border: none;
   border-radius: 3px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -49,9 +61,7 @@ h1 {
   font-size: 12px;
 }
 
-.spacing {
-  margin-bottom: 35px;
-}
+
 
 .buttons {
   color: white;
