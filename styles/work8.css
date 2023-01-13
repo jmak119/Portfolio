@@ -3,10 +3,22 @@ body {
   margin: 0; 
   top: 0;
   bottom: 0;
+  background-color: #FFFFFF;
+  margin-top: 0;
+  
 }
 
-.center {
+p {
+  line-height: 200%;
+}
+
+.center-div {
   width: 1224px;
+  margin: auto;
+  width: 100%;
+}
+
+.margin-center {
   margin: auto;
 }
 
@@ -15,16 +27,17 @@ body {
 }
 
 .section-1 {
-  height: 1024px;
+  height: fit-content;
 }
 
 .spacing {
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: lighter;
+  margin-top: 127px;
 }
 
 .buttons {
@@ -38,6 +51,41 @@ h1 {
   padding-right: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.margin-bottom-buttons {
+  margin-bottom: 115px;
+}
+
+.pictures-row-1{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.column {
+  float: left;
+  padding-right: 25px;
+}
+
+.picture-margin {
+  margin-top: 60px;
+}
+
+.aesthetic-images {
+  height: 432px;
+  width: 392px;
+}
+
+
+.ig-pics-row {
+  align-items: center;
+}
+
+.ig-pic {
+  height: 200px;
+  width: 200px;
+  margin-right: 5px;
 }
 
 /* main {
