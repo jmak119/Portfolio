@@ -5,21 +5,24 @@ body {
   bottom: 0;
   background-color: #FFFFFF;
   margin-top: 0;
-  
 }
+
 
 p {
   line-height: 200%;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
 }
 
 .center-div {
-  width: 1224px;
+  max-width: 1224px;
   margin: auto;
   width: 100%;
 }
 
+
 .margin-center {
-  margin: auto;
+  margin: 0 auto;
 }
 
 .div-items-center {
@@ -57,15 +60,18 @@ h1 {
   margin-bottom: 115px;
 }
 
-.pictures-row-1{
+.column {
+  float: left;
+}
+
+.div-row::after{
   display: table;
   content: "";
   clear: both;
 }
 
-.column {
-  float: left;
-  padding-right: 25px;
+.picture-gap {
+  padding-right: 24px;
 }
 
 .picture-margin {
@@ -77,16 +83,82 @@ h1 {
   width: 392px;
 }
 
+.section2 {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.about-us-div {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: table;
+}
+
+.col-pad-left {
+  padding-left: 80px;
+  
+} 
+
+.col-pad-right {
+  padding-right: 50px;
+}
+
+h3{
+  font-size: 48px;
+  width: 65%;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-right: 0;
+}
+
+.p-width {
+  width: 71%;
+}
+
+.p-pad {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.about-us-left {
+  width: 50%;
+}
+
+.about-us-right {
+  width: 50%;
+}
+
+.desk-plant-image {
+  height: 496px;
+  width: 600px;
+}
+
 
 .ig-pics-row {
   align-items: center;
 }
 
 .ig-pic {
-  height: 200px;
-  width: 200px;
-  margin-right: 5px;
+  height: 242px;
+  width: 242px;
+  margin-right: 10px;
 }
+
+.section-padding-top {
+  padding-top: 50px;
+}
+
+.ig-feed {
+  text-align: center;
+}
+
+.quotes {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-family: 'Kumbh Sans', sans-serif
+}
+
 
 /* main {
   align-items: center;
