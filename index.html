@@ -198,7 +198,7 @@
 
 	<main class="center-div">
 		<section class="section-1 div-items-center div-width">
-			<h1>You deserve a comfortable life</h1>
+			<h1 class="headings-font">You deserve a comfortable life</h1>
 			<p class="spacing">
 				We have made quality our habit. It’s not something that we just strive for – we live by <br> this principle every day. 
 			</p>
@@ -212,11 +212,11 @@
 			</div>
 		</section>
 
-		<section class="section2">
+		<section class="section-margin">
 			<div class="div-row about-us-div col-pad-left">
 				<div class="column about-us-left">
 					<p>WHO WE ARE</p>
-					<h3>It's not just furniture - it's our passion</h3>
+					<h3 class="about-us-width headings-font">It's not just furniture - it's our passion</h3>
 				</div>
 				<div class="column p-width about-us-right">
 					<p class="p-width p-pad">We have made quality our habit. It’s not something that we just strive for – we live by this principle every day. <br><br>
@@ -229,16 +229,16 @@
 			<div class="div-row about-us-div col-pad-left">
 				<div class="column about-us-left section-padding-top">
 					<p>OUR CREDO</p>
-					<h3>Comfort<br>Beauty<br>Versatility</h3>
+					<h3 class="headings-font">Comfort<br>Beauty<br>Versatility</h3>
 					<p class="p-width">We have made quality our habit. It's not something that we just strive for - we live by this principle every day.</p>
 				</div>
 				<div class="column about-us-right">
-					<img class="desk-plant-image" src="images/pexels-element-digital-m2WybgeZovtEvZ9K.avif" alt="Desk">
+					<img class="desk-plant-image max-width" src="images/pexels-element-digital-m2WybgeZovtEvZ9K.avif" alt="Desk">
 				</div>
 			</div>
 		</section>
 	
-		<section>
+		<section class="section-margin">
 			<div class="ig-feed">
 				<div>
 					<p class="quotes">Instagram Feed</p>
@@ -254,7 +254,77 @@
 				</div>
 			</div>
 		</section>
+
+		<!--Need help to align and format this section
+		why is it not going full width of the container?-->
+		<section class="footer">
+			<div class="div-row about-us-div col-pad-left ">
+				<div class="column about-us-left max-width">
+					<h3 class="question headings-font">Have a question?</h3>
+					<p>Left your email and we will contact you soon</p>
+				</div>
+				<div class="column about-us-right">
+					<div>
+						<form>
+							<div>
+								<label for="first">Name*</label><br>
+								<input type="text" id="first" name="firstname" class="box-design" placeholder="Your name">
+							</div>
+							<div>	
+								<label for="last">Last name</label><br>
+								<input type="text" id="last" name="lastname" class=" box-design" placeholder="Your last name">
+							</div>
+							<div>
+								<label for="email">Your email*</label><br>
+								<input type="text" id="first" name="firstname" class="box-design" placeholder="example@mail.com">
+							</div>
+							<div>
+								<label for="comments">Comments*</label><br>
+								<textarea id="comments" class="box-design" rows="5" cols="55" placeholder="Enter your message"></textarea>
+							</div>
+							<div>
+								<button class="buttons">Contact me</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section class="footer-image" >
+			<img class="crop-image"src="images/photo-1511097799136-3661d1bb586c.avif" alt="footer-image">
+		</section> -->
+		<!--cannot crop image-->
 	
+		<footer class="footer div-row about-us-div">
+			<div class="column foot-col-small">
+				<p class="headings-font footer-heading-size"><strong>Address</strong></p>
+				<p class="footer-info">3721 Single Street</p>
+				<p class="footer-info">Quincy, MA 02169</p>
+				<div class="icons-row">
+					<img class="icons" src="images/icons/twitter-1.png" alt="Twitter">
+					<img class="icons" src="images/icons/facebook-6.png" alt="Facebook">
+					<img class="icons" src="images/icons/instagram-11.png" alt="Instagram">
+				</div>
+			</div>
+			<div class="column foot-col-small">
+				<p class="headings-font footer-heading-size"><strong>Contacts</strong></p>
+				<p class="footer-info">123-456-7890</p>
+				<p class="footer-info">info@fips.com</p>
+			</div>
+			<div class="column foot-col-large">
+				<p class="headings-font footer-heading-size subscribe"><strong>Subscribe to our newsletter</strong></p>
+				<form>
+					<div>
+						<label for="email-2">Email address*</label><br>
+						<input type="text" id="email-2" name="email-2" class="box-design" placeholder="Your email address">
+					</div>
+					<div>
+						<button class="buttons margin-bottom-buttons">Submit</button>
+					</div>
+				</form>
+			</div>
+		</footer>
 
 
 
