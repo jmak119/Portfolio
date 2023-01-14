@@ -1,0 +1,127 @@
+body {
+    margin: auto 0;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+section {
+    margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 200%;
+}
+
+#header {
+    display: flex;
+    width: 800px;
+}
+
+#main-title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#menu li {
+   float: left;
+   width: auto;
+   padding-right: 28px;
+   list-style: none;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+#hero-image {
+    width: auto;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#hero-image li {
+    float: left;
+    list-style: none;
+
+}
+
+#hero-image li:nth-child(odd) img {
+    margin-top: 34px;
+
+}
+
+#hero-image li:nth-child(even) img {
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+#hero-image img {
+    width: 250px;
+    height: 280px;
+}
+
+.small-section {
+    width: 660px;
+    display: flex;
+    
+}
+
+.small-section h3 {
+    width: 240px;
+}
+
+#who-we-are p {
+    margin-left: 120px;
+}
+#our-credo p {
+    width: 350px;
+}
+
+/* questions section */
+#have-question form {
+    margin-left: 124px;
+}
+
+input, textarea {
+    width: 380px;
+    padding: 16px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    background-color: #f3f3f3;
+    
+    border: none;
+}
