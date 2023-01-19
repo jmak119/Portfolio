@@ -2,7 +2,7 @@ body {
     margin: auto 0;
     color: black;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 section {
@@ -14,7 +14,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 48px;
     font-weight: 400;
 }
 
@@ -22,6 +22,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
 }
+
 
 h3 {
     font-size: 32px;
@@ -38,9 +39,40 @@ p {
     line-height: 200%;
 }
 
+button {
+    color: white;
+    background-color: #CCADAD;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+
+.spacing {
+    margin: 70px;
+}
+
+#menu_shadow {
+    bottom: 1px;
+    box-shadow: 0px 0px 8px 2px ;
+    color: rgb(220, 210, 226);
+}
+
 #header {
     display: flex;
-    width: 800px;
+    width: 1243px;
+    color: black;
+    padding: 16px 0px 16px 0px;
+}
+
+#logo {
+    width: 49px;
+    vertical-align: middle;
 }
 
 #main-title {
@@ -56,20 +88,38 @@ p {
 #menu li {
    float: left;
    width: auto;
-   padding-right: 28px;
    list-style: none;
+   font-weight: bold;
 }
+
+.padding-right {
+    padding-right: 28px;
+}
+
+#menu img {
+    height: 25px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
 
 .selected {
     text-decoration: underline;
+    text-underline-offset: 7px;
 }
 
 #hero-image {
     width: auto;
-    height: 400px;
+    height: 469px;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+#hero-image ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #hero-image li {
@@ -86,18 +136,16 @@ p {
 #hero-image li:nth-child(even) img {
     margin-left: 24px;
     margin-right: 24px;
-
 }
 
 #hero-image img {
-    width: 250px;
-    height: 280px;
+    width: 392px;
+    height: 432px;
 }
 
 .small-section {
-    width: 660px;
+    width: 800px;
     display: flex;
-    
 }
 
 .small-section h3 {
@@ -107,11 +155,43 @@ p {
 #who-we-are p {
     margin-left: 120px;
 }
+
 #our-credo p {
-    width: 350px;
+    width: 390px;
+    margin-right: 130px;
 }
 
+#our-credo img {
+    height: 496px;
+    width: 592px;
+ }
+
+
+/* Insta-feed section */
+
+#insta-feed {
+     margin: auto;
+     text-align: center;   
+}
+
+#insta-feed p {
+    
+}
+
+#insta-feed img{
+    height: 242px;
+    width: 242px;
+}
+
+.ig-padding {
+    padding-right: 10px;
+}
+
+
+
+
 /* questions section */
+
 #have-question form {
     margin-left: 124px;
 }
@@ -122,6 +202,5 @@ input, textarea {
     margin-top: 8px;
     margin-bottom: 24px;
     background-color: #f3f3f3;
-    
     border: none;
 }

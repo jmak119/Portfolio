@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index9.css">
+    <link rel="stylesheet" href="styles/index9.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -14,17 +14,19 @@
     <title>Index9</title>
 </head>
 <body>
-    <section id="header">
-        <h2>Flips</h2>
-        <ul id="menu">
-            <li class="selected">Home</li>
-            <li>Store</li>
-            <li>Customer Care</li>
-            <li>Contacts</li>
-            <li>Store</li>
-        </ul>
-    </section>
-    <div id="menu_shadow"></div>
+    
+    <div id="menu_shadow">
+        <section id="header">
+            <img id="logo" src="images/logo-black-mxB0QG5WNWCDekL1.svg" alt="logo">
+            <ul id="menu" >
+                <li class="selected padding-right">Home</li>
+                <li class="padding-right">Store</li>
+                <li class="padding-right">Customer Care</li>
+                <li class="padding-right">Contacts</li>
+                <li><img src="images/icons/shopping-bag-2.png" alt="bag-icon">Shopping Bag (0)</li>
+            </ul>
+        </section>
+    </div>
     
     <section id="main-title">
         <h1>You deserve a comfortable life</h1>
@@ -33,19 +35,23 @@
         </p>
         <button>Our store</button>
     </section>
+
+    <div class="spacing"></div>
     
     <section id="hero-image">
         <ul>
             <li><img src="images/agata-create-unsplash-AQEzqWqnVaS3eKx5.avif" alt="Chair 1"></li>
             <li><img src="images/daniil-silantev-unsplash-YleXlbbvg6U9PDB9.avif" alt="chair 2"></li>
-            <li><img src="images/jean-philippe-delberghe-PVQnaFyePvU-unsplash-mnl08bgoeeHyRV0Wavif" alt="table 1"></li>
+            <li><img src="images/jean-philippe-delberghe-PVQnaFyePvU-unsplash-mnl08bgoeeHyRV0W.avif" alt="table 1"></li>
         </ul>
     </section>
+
+    <div class="spacing"></div>
     
     <section id="who-we-are" class="small-section">
         <div>
             <h4>who we are</h4>
-            <h3>It's not just furniture - it's our passion</h3>
+            <h1>It's not just furniture - it's our passion</h1>
         </div>
         <p>
             We have made quality our habit. It’s not something that we just strive for – we live by this principle every day. <br><br>
@@ -53,16 +59,30 @@
         </p>
     </section>
     
+    <div class="spacing"></div>
+    
     <section id="our-credo" class="small-section">
         <div>
             <h4>OUR CREDO</h4>
-            <h3>Comfort<br>Beauty<br>Versatility</h3>
+            <h1>Comfort<br>Beauty<br>Versatility</h1>
             <p>We have made quality our habit. It's not something that we just strive for - we live by this principle every day.</p>
         </div>
-        <img class="desk-plant-image max-width" src="images/pexels-element-digital-m2WybgeZovtEvZ9K.avif" alt="Desk">
+        <img src="images/pexels-element-digital-m2WybgeZovtEvZ9K.avif" alt="Desk">
     </section>
     
-    <section id="insta-feed"></section>
+    <div class="spacing"></div>
+
+    <section id="insta-feed">
+        <p>Instagram Feed</p>
+        <div>
+            <img class="ig-padding" src="images/ff9d0804113d04a0e3bfc1f195dd2d7a.jpg" alt="Chairs">
+			<img class="ig-padding" src="images/room.jpg" alt="bedroom">
+			<img class="ig-padding" src="images/wood.jpg" alt="Wooden Furniture">
+			<img src="images/alma-sideboard-oak-cane-1655291407.jpg" alt="more furniture">
+        </div>
+    </section>
+
+    <div class="spacing"></div>
 
     <section id="have-question" class="small-section">
         <div>
@@ -84,6 +104,8 @@
 
     <section id="footer-img"></section>
 
-    <footer id="footer"></footer>
+    <footer id="footer">
+
+    </footer>
 </body>
 </html>
