@@ -79,8 +79,6 @@ button {
     vertical-align: middle;
 }
 
-
-
 #menu {
     margin-left: auto;
     margin-right: 0;
@@ -103,19 +101,12 @@ button {
     vertical-align: middle;
 }
 
-
 .selected {
     text-decoration: underline;
     text-underline-offset: 7px;
 }
 
-#hero-image {
-    width: auto;
-    height: 469px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
+
 
 #main-title {
     margin-top: 130px;
@@ -124,6 +115,14 @@ button {
 
 #main-title p {
     margin-bottom: 30px;
+}
+
+#hero-image {
+    width: auto;
+    height: 469px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #hero-image ul {
