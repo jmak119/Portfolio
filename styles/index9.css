@@ -30,7 +30,7 @@ h3 {
 }
 
 h4 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 100;
     text-transform: uppercase;
 }
@@ -54,7 +54,11 @@ button {
 
 
 .spacing {
-    margin: 70px;
+    margin: 130px;
+}
+
+.spacing-small {
+    margin: 50px;
 }
 
 #menu_shadow {
@@ -75,10 +79,7 @@ button {
     vertical-align: middle;
 }
 
-#main-title {
-    margin-top: 100px;
-    text-align: center;
-}
+
 
 #menu {
     margin-left: auto;
@@ -116,6 +117,15 @@ button {
     display: flex;
 }
 
+#main-title {
+    margin-top: 130px;
+    text-align: center;
+}
+
+#main-title p {
+    margin-bottom: 30px;
+}
+
 #hero-image ul {
     padding-left: 0;
     margin-top: 0;
@@ -144,7 +154,7 @@ button {
 }
 
 .small-section {
-    width: 800px;
+    width: 1024px;
     display: flex;
 }
 
@@ -152,10 +162,32 @@ button {
     width: 240px;
 }
 
-#who-we-are p {
-    margin-left: 120px;
+.small-section h4 {
+    margin-bottom: 0px;
 }
 
+/*who we are section */
+
+#who-we-are h1 {
+    width: 50%;
+    margin-top: 20px;
+}
+
+#who-we-are p {
+    width: 50%;
+    padding-top: 40px;
+}
+
+ /* Credo section */
+
+#our-credo h4 {
+    margin-top: 80px;
+}
+
+#our-credo h1  {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 #our-credo p {
     width: 390px;
     margin-right: 130px;
@@ -174,33 +206,76 @@ button {
      text-align: center;   
 }
 
-#insta-feed p {
-    
+#insta-feed h3 {
+    margin-bottom: 60px;
 }
 
 #insta-feed img{
     height: 242px;
     width: 242px;
+    margin-bottom: 45px;
 }
 
 .ig-padding {
-    padding-right: 10px;
+    padding-right: 13px;
 }
-
-
-
 
 /* questions section */
 
+#have-question h1 {
+    width: 400px;
+    margin-top: 0;
+}
+
 #have-question form {
-    margin-left: 124px;
+    margin-left: 50px;
 }
 
 input, textarea {
-    width: 380px;
+    width: 90%;
     padding: 16px;
     margin-top: 8px;
     margin-bottom: 24px;
     background-color: #f3f3f3;
     border: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+/* footer image section */
+
+#footer-img img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+/*footer */
+
+.small-col {
+    width: 25%;
+}
+
+.large-col {
+    width: 50%;
+}
+
+#footer {
+    margin-bottom: 70px;
+}
+
+#footer h2 {
+    margin-bottom: 10px;
+}
+
+#footer p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 190%;
+}
+
+#footer img {
+    height: 20px;
+    margin-right: 20px; 
 }
