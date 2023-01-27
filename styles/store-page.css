@@ -1,0 +1,47 @@
+#its-easy {
+  margin-top: 70px;
+}
+
+#its-easy h1 {
+  width: 60%;
+}
+
+/* Product Cards section */
+
+#products {
+  width: 1250px;
+}
+
+.product-cards {
+  width: 292px;
+  box-shadow: 0 5px 5px 0  rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 8px;
+}
+
+.product-cards img {
+  height: 292px;
+  width: 292px;
+  object-fit: cover;
+  margin-bottom: 16px
+}
+
+.product-cards p {
+  margin: 0;
+  line-height: 130%;
+  padding-left: 16px;
+}
+
+.item-name {
+  font-weight: 600;
+}
+
+.card-spacing {
+  margin: 20.8px;
+}
+
+.item-price-padding {
+  padding-bottom: 19.2px;
+}
+
+

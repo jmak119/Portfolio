@@ -82,7 +82,9 @@ button {
 #menu {
     margin-left: auto;
     margin-right: 0;
-}
+    padding-left: 0;
+    padding-right: 16px;
+}    
 
 #menu li {
    float: left;
@@ -92,7 +94,7 @@ button {
 }
 
 .padding-right {
-    padding-right: 28px;
+    padding-right: 50px;
 }
 
 #menu img {
@@ -167,12 +169,12 @@ button {
 
 /*who we are section */
 
-#who-we-are h1 {
+.about-us h1 {
     width: 50%;
     margin-top: 20px;
 }
 
-#who-we-are p {
+.about-us p {
     width: 50%;
     padding-top: 40px;
 }
