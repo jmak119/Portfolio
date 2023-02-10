@@ -7,8 +7,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/store-page.css">
   <link rel="stylesheet" href="styles/index9.css">
+  <link rel="stylesheet" href="styles/store-page.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -43,29 +43,31 @@
     </p>
   </section>
 
-  <section id="item-menu-bar">
+  <!-- <section id="item-menu-bar">
 
-  </section>
+  </section> -->
   
-  <section id="sorting-menu">
-    <form action="/action_page.php">
-      <label for="sort-by">Sort by</label>
-      <select id="sort-by" name="sort-by">
-        <!-- <option style="display: none"></option> -->
-        <option value="we-recommend">We recommend</option>
-        <option value="newest-arrivals">Newest arrivals</option>
-        <option value="price-ascend">Price: Low to High</option>
-        <option value="price-descend">Price: High to Low</option>
-        <option value="name-ascend">Name: A to Z</option>
-        <option value="name-descend">Name: Z to A</option>
-      </select>
-    </form>
+  <section id="sorting-menu" class="wide-section">
+      <form>
+        <label for="sort-by">Sort by</label>
+        <select id="sort-by" name="sort-by">
+          <option value="we-recommend">We recommend</option>
+          <option value="newest-arrivals">Newest arrivals</option>
+          <option value="price-ascend">Price: Low to High</option>
+          <option value="price-descend">Price: High to Low</option>
+          <option value="name-ascend">Name: A to Z</option>
+          <option value="name-descend">Name: Z to A</option>
+        </select>
+      </form>
+    </div>
+  </section> 
 
-    </form>
-  </section>
+
+
   <section id="products">
       <div class="product-cards">
         <img src="images/white-chair.jpg" alt="White Chair">
+        <button class="product-card-button"><a class="button" href="">Buy Now</a></button>
         <p class="item-name">SAMPLE. White chair</p>
         <p class="item-price-padding">$19.95</p>
       </div>

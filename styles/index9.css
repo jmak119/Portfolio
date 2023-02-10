@@ -52,18 +52,12 @@ button {
     padding-bottom: 15px;
   }
 
-
 .spacing {
     margin: 130px;
 }
 
 .spacing-small {
     margin: 50px;
-}
-
-.navbar {
-    
-   
 }
 
 #menu_shadow {
@@ -117,8 +111,6 @@ button {
     text-underline-offset: 7px;
 }
 
-
-
 #main-title {
     margin-top: 130px;
     text-align: center;
@@ -145,12 +137,10 @@ button {
 #hero-image li {
     float: left;
     list-style: none;
-
 }
 
 #hero-image li:nth-child(odd) img {
     margin-top: 34px;
-
 }
 
 #hero-image li:nth-child(even) img {

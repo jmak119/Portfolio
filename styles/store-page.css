@@ -1,9 +1,38 @@
+.wide-section {
+  width: 1225px;
+}
+
 #its-easy {
   margin-top: 70px;
 }
 
 #its-easy h1 {
   width: 60%;
+}
+
+/* sorting dropdown section */
+
+#sorting-menu form {
+  width: 100%;
+  text-align: right;
+  color: rgb(117, 117, 117);
+}
+
+#sorting-menu form:hover, select:hover {
+  color: navy;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#sorting-menu label {
+  text-transform: uppercase;
+}
+
+select {
+  width: 18px;
+  border: none;
+  font-weight: 400;
+  color: rgb(117, 117, 117)
 }
 
 /* Product Cards section */
@@ -24,6 +53,20 @@
   width: 292px;
   object-fit: cover;
   margin-bottom: 16px
+}
+
+.product-cards img:hover {
+  opacity: 0.3;
+  filter: blur(5px);
+  transition: 0.2s;
+}
+
+.product-card-button {
+  display: none;
+}
+
+.product-cards img:hover + .product-card-button, .product-card-button:hover {
+  display: inline-block;
 }
 
 .product-cards p {
