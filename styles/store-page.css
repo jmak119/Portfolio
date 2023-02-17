@@ -47,6 +47,7 @@ select {
   display: inline-block;
   margin: 8px;
   position: relative;
+  cursor: pointer;
 }
 
 .product-cards img {
