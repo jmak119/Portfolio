@@ -9,6 +9,8 @@
         .container {
             background-color: green;
             color: black;
+            display: inline-flex;
+            width: fit-content;
         }
         
         .image {
@@ -19,72 +21,110 @@
 
         .card {
             width: min-content;
-            display: inline-block;
-            height: 100%;
+            height: inherit;
+            display: flex;
+            flex-direction: column;
             background-color: burlywood;
+            margin-right: 24px;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+            background-color: red;
+            
         }
 
         .title, .price {
             margin: 16px;
         }
+
+
         
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
+                   
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
+    
+        
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">one more dsflksdmflkasmdlkamsdlkma skldma;skmd;asm d;lasmd;lmasd;lmas;ldma;lsdm;lasmd;lasmd;lamsd;lmas;ldma;lsmd;lasmd;lamsd;lasmd;lmas;lm</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+       
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs sdfdsfds dsf ds fds fds fds fds fds fds fds fds fds fds fds fds fds </div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+       
     
 
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs sdfdsfds dsf ds fds fds fds fds fds fds fds fds fds fds fds fds fds </div>
-            <div class="price">$34.56</div>
-        </div>
-    
-
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
+       
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
     
 
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
-    
-
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
+        
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
     
 
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
-    
+       
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
 
-    
-        <div class="card">
-            <div class="image"></div>
-            <div class="title">sfsdfd sfd sfs</div>
-            <div class="price">$34.56</div>
-        </div>
+       
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="image"></div>
+                <div class="info">
+                    <div class="title">sfsdfd sfd sfs</div>
+                    <div class="price">$34.56</div>
+                </div>
+            </div>
+        
     </div>
 </body>
 </html>
