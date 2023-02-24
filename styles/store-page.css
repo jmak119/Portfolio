@@ -1,5 +1,6 @@
 .wide-section {
-  width: 1225px;
+  max-width: 1225px;
+  
 }
 
 #its-easy {
@@ -38,16 +39,21 @@ select {
 /* Product Cards section */
 
 #products {
-  width: 1250px;
+  margin: auto;
+  max-width: 1219px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .product-cards {
   width: 292px;
-  box-shadow: 0 5px 5px 0  rgba(0, 0, 0, 0.3);
-  display: inline-block;
-  margin: 8px;
+  box-shadow: 0 2px 2px 1px  rgba(230, 227, 227, 0.836);
+  display: flex;
+  flex-direction: column;
   position: relative;
   cursor: pointer;
+  margin-bottom: 16px;
 }
 
 .product-cards img {
@@ -62,7 +68,6 @@ select {
   opacity: 0.3;
   filter: blur(5px);
   transition: 0.2s;
-  
 }
 
 .product-cards:hover .item-name {
@@ -85,6 +90,14 @@ select {
   -ms-transform: translate(-50%, -50%);
 }
 
+.product-card_info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  width: 292px;
+}
+
 .product-cards p {
   margin: 0;
   line-height: 130%;
@@ -93,10 +106,6 @@ select {
 
 .item-name {
   font-weight: 600;
-}
-
-.card-spacing {
-  margin: 20.8px;
 }
 
 .item-price-padding {
